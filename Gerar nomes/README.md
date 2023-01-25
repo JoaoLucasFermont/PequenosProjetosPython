@@ -1,1 +1,3 @@
-README.md
+Gerador de Nomes Aleatórios em Python: Este projeto é uma implementação simples de um gerador de nomes aleatórios, desenvolvido em Python. Ele foi projetado para gerar nomes de forma aleatória, mas com a possibilidade de selecionar o gênero dos nomes gerados.
+Para utilizar o programa, o usuário precisa escolher entre gênero masculino ou feminino, e o programa irá gerar um nome aleatório baseado na escolha feita. Além disso, o programa também permite salvar os nomes gerados em um arquivo de texto.
+Este projeto é útil para gerar nomes para personagens de histórias, jogos, simulações, etc. e está disponível no GitHub para fins educacionais e de estudo.
