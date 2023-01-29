@@ -1,5 +1,6 @@
-from random import *
+from random import randrange
 
+print('[1] Sexo Masculino \n[2] Sexo Feminino')
 Sexoimput = input('digite o sexo para gerar o nome:  ')
 
 listamasc = []
@@ -8,15 +9,15 @@ listasobrenomes = []
 
 with open("NomesMasc.txt", "r") as arquivo:
     for nomes in arquivo:
-        listamasc.append(nomes)
+        listamasc.append(nomes.strip())
 
 with open("NomesFem.txt", "r") as arquivo:
     for nomes in arquivo:
-        listafem.append(nomes)
+        listafem.append(nomes.strip())
 
 with open("sobrenomes.txt", "r") as arquivo:
     for nomes in arquivo:
-        listasobrenomes.append(nomes)
+        listasobrenomes.append(nomes.strip())
 
 
 if Sexoimput == '1':
@@ -27,6 +28,7 @@ elif Sexoimput == '2':
 
 else:
     print(f'Erro')
+
 
 
 
